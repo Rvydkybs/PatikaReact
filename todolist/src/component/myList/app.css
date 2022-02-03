@@ -1,0 +1,37 @@
+input[type=checkbox]:checked+label.strikethrough{
+    text-decoration: line-through;
+}
+
+.defaultDiv{
+    font-family: Arial, Helvetica, sans-serif;
+    background: #fff;
+    height: 300px;
+    width: 600px;
+    border-radius: 4px;
+    border-style: solid;
+    margin: 0;
+	padding: 0;
+    text-align: center;
+}
+.completed{
+    border-style: ridge;
+    border-radius: 4px;
+    text-align: center;
+    width: 85px;
+    height: 40px;
+    margin: 100;
+	padding: 0;
+    margin-left: 40px;
+}
+
+.actives{
+    border-style: ridge;
+    border-radius: 4px;
+    text-align: center;
+    width: 85px;
+    height: 40px;
+    margin: 100;
+	padding: 0;
+    margin-left: 100px;
+    
+}
